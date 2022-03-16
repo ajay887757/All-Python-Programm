@@ -1,0 +1,10 @@
+f=open("abc.txt","r")
+print(f.read(4),end="")
+print(f.tell())
+print(f.read(7),end="")
+print(f.tell())
+print(f.read(12),end="")
+print(f.tell())
+print(f.read(50),end="")
+print(f.tell())
+

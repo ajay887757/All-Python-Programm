@@ -1,0 +1,6 @@
+x=input("Enter Any String")
+y=input("Enter You Substring you want to remove")
+s=x.split(y)
+print(s)
+i="".join(s)
+print(i)
