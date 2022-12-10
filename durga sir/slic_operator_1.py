@@ -1,0 +1,6 @@
+n=input("Enter Any Name")
+print(n.upper())
+print(n[:len(n)-1]+n[-1].upper())
+print(n.lower())
+print(n[0]+n[1].upper()+n[2:])
+print(n[0].upper()+n[1:len(n)-1]+n[-1].upper())

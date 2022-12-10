@@ -1,0 +1,7 @@
+x=input("Enter String:")
+y=input("Enter old value:")
+z=input("Enter New value")
+x1=x.replace(y,z)
+print(x1)
+c=x.count(y)
+print("Number of {}=".format(y),c)
